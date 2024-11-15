@@ -16,6 +16,4 @@ func TestGetBearerToken(t *testing.T) {
 	if headerToken != "mytoken" {
 		t.Errorf("found tokens are not equal, %s != %s", headerToken, token)
 	}
-
-	t.Errorf("fail on purpose for testing purposes")
 }
